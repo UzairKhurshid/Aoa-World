@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ccffcc"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/icon1"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Accedemic App"
+        android:textSize="35dp"/>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="80dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnResearch"
+            android:layout_width="197dp"
+            android:layout_height="187dp"
+            android:layout_gravity="left"
+            android:drawableTop="@drawable/iconresearch"
+            android:text="Research Papers"
+            android:textSize="15" />
+
+        <Button
+            android:id="@+id/btnArticles"
+            android:layout_width="196dp"
+            android:layout_height="186dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="25dp"
+            android:drawableTop="@drawable/iconarticle"
+            android:text="Articles"
+            android:textSize="15" />
+
+        <Button
+            android:id="@+id/btnTutorials"
+            android:layout_width="198dp"
+            android:layout_height="175dp"
+            android:layout_below="@+id/btnResearch"
+            android:layout_marginTop="34dp"
+            android:drawableTop="@drawable/icontutorial"
+            android:text="Tutorials"
+            android:textSize="15" />
+
+        <Button
+            android:id="@+id/btnCourse"
+            android:layout_width="185dp"
+            android:layout_height="179dp"
+            android:layout_below="@+id/btnArticles"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="34dp"
+            android:layout_toRightOf="@+id/btnTutorials"
+            android:drawableTop="@drawable/iconcourse"
+            android:text="Courses"
+            android:textSize="15" />
+
+        <Button
+            android:id="@+id/btnLogout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LogOut"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            />
+
+    </RelativeLayout>
+    </LinearLayout>
+
+
+
+
+
